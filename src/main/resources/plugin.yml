@@ -1,0 +1,20 @@
+name: ChakraOverflow
+version: ${project.version}
+main: dev.smp.chakraoverflow.ChakraOverflow
+api-version: 1.21
+authors: [ SMP ]
+description: Phoenix's Divine Flames - charge a devastating flaming arrow
+
+commands:
+  chakra:
+    description: Give yourself the Phoenix Bow
+    usage: /chakra
+    permission: chakraoverflow.give
+
+permissions:
+  chakraoverflow.use:
+    description: Allows use of the Phoenix Bow
+    default: true
+  chakraoverflow.give:
+    description: Allows /chakra command
+    default: op
